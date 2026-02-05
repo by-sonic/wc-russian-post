@@ -1,0 +1,28 @@
+# Logs
+logs/
+*.log
+
+# WordPress
+wp-config.php
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Composer
+vendor/
+composer.lock
+
+# Node
+node_modules/
+
+# Build
+dist/
+build/

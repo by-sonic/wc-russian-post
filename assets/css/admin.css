@@ -1,0 +1,26 @@
+.wcrp-settings-wrap {
+    max-width: 800px;
+}
+
+.wcrp-nav-tabs {
+    margin-bottom: 20px;
+}
+
+.wcrp-test-form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wcrp-test-result {
+    margin-top: 10px;
+}
+
+.wcrp-order-meta input.widefat {
+    margin-top: 5px;
+}
+
+.wcrp-order-meta .button {
+    margin-top: 10px;
+}

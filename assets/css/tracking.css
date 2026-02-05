@@ -1,0 +1,223 @@
+.wcrp-tracking-widget {
+    max-width: 500px;
+    margin: 20px 0;
+}
+
+.wcrp-tracking-title {
+    margin-bottom: 15px;
+    font-size: 1.3em;
+}
+
+.wcrp-tracking-form {
+    margin-bottom: 20px;
+}
+
+.wcrp-tracking-input-wrap {
+    display: flex;
+    gap: 10px;
+}
+
+.wcrp-tracking-input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.wcrp-tracking-button {
+    padding: 12px 24px;
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.2s;
+}
+
+.wcrp-tracking-button:hover {
+    background: #005a87;
+}
+
+.wcrp-tracking-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.wcrp-tracking-result-content {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.wcrp-tracking-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.wcrp-tracking-number {
+    font-size: 14px;
+}
+
+.wcrp-tracking-status {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.wcrp-status-delivered {
+    background: #d4edda;
+    color: #155724;
+}
+
+.wcrp-status-transit {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.wcrp-status-arrived {
+    background: #cce5ff;
+    color: #004085;
+}
+
+.wcrp-status-returned {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.wcrp-status-default {
+    background: #e2e3e5;
+    color: #383d41;
+}
+
+.wcrp-tracking-timeline {
+    position: relative;
+    padding-left: 30px;
+}
+
+.wcrp-checkpoint {
+    position: relative;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-left: 2px solid #ddd;
+}
+
+.wcrp-checkpoint:last-child {
+    border-left-color: transparent;
+    padding-bottom: 0;
+}
+
+.wcrp-checkpoint-latest {
+    border-left-color: #0073aa;
+}
+
+.wcrp-checkpoint-marker {
+    position: absolute;
+    left: -8px;
+    top: 0;
+    width: 14px;
+    height: 14px;
+    background: #ddd;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.wcrp-checkpoint-latest .wcrp-checkpoint-marker {
+    background: #0073aa;
+}
+
+.wcrp-checkpoint-content {
+    background: #f8f9fa;
+    padding: 12px 15px;
+    border-radius: 6px;
+}
+
+.wcrp-checkpoint-date {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.wcrp-checkpoint-status {
+    font-weight: 500;
+    color: #333;
+}
+
+.wcrp-checkpoint-location {
+    font-size: 13px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.wcrp-tracking-footer {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    text-align: center;
+}
+
+.wcrp-external-link {
+    color: #0073aa;
+    text-decoration: none;
+}
+
+.wcrp-external-link:hover {
+    text-decoration: underline;
+}
+
+.wcrp-error {
+    padding: 15px;
+    background: #f8d7da;
+    color: #721c24;
+    border-radius: 6px;
+}
+
+.wcrp-no-data {
+    text-align: center;
+    color: #666;
+    padding: 20px;
+}
+
+.wcrp-order-tracking {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.wcrp-track-number {
+    font-family: monospace;
+    font-size: 1.1em;
+    background: #fff;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin: 0 5px;
+}
+
+.wcrp-track-link {
+    margin-left: 10px;
+}
+
+@media (max-width: 600px) {
+    .wcrp-tracking-input-wrap {
+        flex-direction: column;
+    }
+    
+    .wcrp-tracking-button {
+        width: 100%;
+    }
+    
+    .wcrp-tracking-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
